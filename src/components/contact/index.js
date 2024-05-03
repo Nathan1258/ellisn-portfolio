@@ -35,11 +35,11 @@ const Button = styled.button`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #ffffff;
+    background: #191919;
     border: 1px solid #222222;
     border-radius: 8px;
     box-sizing: border-box;
-    color: #222222;
+    color: white;
     text-decoration: none;
     cursor: pointer;
     width: 20%;

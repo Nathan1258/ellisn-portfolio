@@ -96,6 +96,25 @@ const CloudNotify = () => {
   );
 };
 
+const Overload = () => {
+  return (
+    <a href="https://overloadworkout.com">
+      <ProjectWrapper>
+        <ProjectContent>
+          <ProjectImage src="https://static.ellisn.com/ellisn/images/overload_logo.png" />
+          <ProjectDescription>
+            <Title>OVERLOAD</Title>
+            <Description>
+              OVERLOAD is a brand new fitness app concept in development. It builds upon the learnings from my past projects
+                to offer a comprehensive solution that goes beyond what existing apps provide. I consider this my first main project.
+            </Description>
+          </ProjectDescription>
+        </ProjectContent>
+      </ProjectWrapper>
+    </a>
+  );
+};
+
 const UpSend = () => {
   return (
     <a href="/projects/upsend">
@@ -158,6 +177,11 @@ export function MyWork(props) {
   return (
     <WorkWrapper id="my-work">
       <Title>My Work</Title>
+        <Overload />
+      <br />
+      <br />
+      <br />
+      <br />
       <CloudNotify />
       <br />
       <br />
