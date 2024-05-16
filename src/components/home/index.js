@@ -55,7 +55,7 @@ export function Home(props) {
           <Description>
             <Typewriter
               options={{
-                strings: ["Student.", "Web Developer.", "Software Engineer."],
+                strings: ["Team Player", "Web Developer.", "Software Engineer."],
                 autoStart: true,
                 loop: false,
               }}
