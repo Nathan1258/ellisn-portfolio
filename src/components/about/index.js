@@ -87,17 +87,15 @@ export function About(props) {
     <AboutWrapper id="about">
       <Title>About me</Title>
       <Description>
-        Hi 👋 My name is Nathan Ellis and I live in the United Kingdom. I'm{" "}
-        {getAge()} years old and currently studying Computer Science in Nottingham.
-        I plan to achieve a Masters Degree at the end of my Education journey.
+        Hi 👋 My name is Nathan Ellis, I'm {" "} {getAge()} years old and I live in the United Kingdom.
+        I studied Computer Science in Nottingham and achieved a class honours.
       </Description>
       <br />
       <Description>
         I describe myself as a passionate developer who loves working within
-        teams, creating projects and contributing to open source code. Aside
-        from my studying for my degree, and my part-time job working at Marks
-        and Spencer, I love to work on personal and commercial projects to
-        improve on my overall knowledge and developing skills.
+        teams, creating projects and contributing to open source code.I love to
+        work on personal and commercial projects to improve on my overall
+        knowledge and developing skills.
       </Description>
       <br />
       <Description>
