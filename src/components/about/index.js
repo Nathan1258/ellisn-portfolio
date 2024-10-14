@@ -88,7 +88,8 @@ export function About(props) {
       <Title>About me</Title>
       <Description>
         Hi 👋 My name is Nathan Ellis, I'm {" "} {getAge()} years old and I live in the United Kingdom.
-        I studied Computer Science in Nottingham and achieved a class honours.
+        I studied for a BSc in Computer Science at Nottingham, where I achieved a first-class honors degree. 
+        I am currently pursuing a Master's degree in Applied Data Science while working as a Software Engineer at ETAS (Bosch).
       </Description>
       <br />
       <Description>
